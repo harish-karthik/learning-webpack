@@ -1,0 +1,29 @@
+{
+  "name": "webpack-demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "webpack"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Colt/webpack-demo-app.git"
+  },
+  "keywords": [
+    "Webpack",
+    "Sass",
+    "Bootstrap"
+  ],
+  "author": "Harish Karthik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Colt/webpack-demo-app/issues"
+  },
+  "homepage": "https://github.com/Colt/webpack-demo-app#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
