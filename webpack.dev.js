@@ -8,5 +8,16 @@ module.exports = merge (common,{
     output : {
         filename : '[name].js',
         path : path.resolve(__dirname , "dist")
+    },
+    plugins: [new htmlWebpackPlugin({
+        template : './src/template.html'
+    })],
+    module : {
+        rules : [
+            {
+                test : /\.scss$/,
+                use : ['style-loader','css-loader','sass-loader']
+            }
+        ]
     }
 })
